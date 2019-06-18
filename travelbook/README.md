@@ -289,3 +289,85 @@ exports.main = async (event, context) => {
   return currentdate
 }
 ```
+```javascript
+// deleteItems  批量删除，云数据库的批量删除只允许在云函数中执行
+
+// 云函数入口文件
+const cloud = require('wx-server-sdk')
+
+// 初始化云函数
+cloud.init()
+
+// 连接云数据库
+const db = cloud.database()
+const _ = db.command
+
+
+// 云函数入口函数
+exports.main = async (event, context) => {
+  try {
+    return await db.collection('spend_items')
+      .where({
+        accountKey: event.accountKey
+      })
+      .remove()
+  } catch (e) {
+    console.error(e)
+  }
+}
+```
+## MVVM
+界面有了，数据有了。万事俱备，只欠东风！所以下一步就是[MVVM](https://www.liaoxuefeng.com/wiki/1022910821149312/1108898947791072)的设计。小程序本质就是基于MVVM所设计的，在MVVM的世界里，数据是灵魂，一切都由数据来驱动。
+## 账本页显示
+账本页有两种显示的风格，左上角的按钮可以来回切换风格，下拉可刷新页面，显示accounts数据表中存储的账本信息。显示时有个小细节，需要根据创建的时间先后来显示，越晚创建的越先显示。
+```javascript
+// 页面数据设计, 在wxml中使用{{}}符号引用数据，数据就动态显示到了页面上
+data: {
+    isList: false, // 转换页面风格的标识 true为竖向风格 false为横向风格
+    accounts: [],  // 存储查询的账本数据
+    now: null,     // 存储当日时间
+    year: null     // 存储年份
+}
+
+ // 转换显示风格
+switchList() {
+    // 设置页面风格样式
+    let isList = !this.data.isList
+    this.setData({
+      isList
+    })
+    wx.setStorage({
+      key: "isList",
+      data: isList
+    })
+}
+
+// 获取页面风格转换标识
+var isList = wx.getStorageSync('isList')
+    
+// 查询账本
+db.collection('accounts')
+  .get({
+    success: res => {
+      this.setData({
+        accounts: res.data.reverse(),  // 反转数组，优先显示创建早的账本
+        isList
+      })
+      wx.hideLoading()
+    }
+  })
+
+// 调用云函数接口 获取当前日期
+wx.cloud.callFunction({
+    // 云函数接口名就是创建的云函数名字，这里是'getTime'
+    name: 'getTime',
+    success: (res) => {
+    let year = res.result.split('-')[0]
+    this.setData({
+      now: res.result,
+      year
+    })
+    },
+    fail: console.error
+})
+```
