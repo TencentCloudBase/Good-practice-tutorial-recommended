@@ -23,3 +23,21 @@
 | 深圳美食图鉴 | jooyi的美食地图 | 千岛湖民宿地图 | 呼市美食地图 |
 |-------------|----------------|---------------|-------------|
 |![](https://puui.qpic.cn/vupload/0/20190618_1560847643851_wjwzhjtb3xd.jpeg/0)|![](https://puui.qpic.cn/vupload/0/20190618_1560847714308_dexyb0uzgv.jpeg/0)|![](https://puui.qpic.cn/vupload/0/20190618_1560847745361_xrd4beiduaf.jpeg/0)|![](https://puui.qpic.cn/vupload/0/20190618_1560847774563_myhasz9x85m.jpeg/0)|
+## 安装使用
+请查看 [安装教程](https://github.com/CloudKits/miniprogram-foodmap/wiki/Install)
+## 配置文件说明
+请查看 [配置文件说明](https://github.com/CloudKits/miniprogram-foodmap/wiki/Settings)
+## 依赖服务说明
+请查看 [依赖服务说明](https://github.com/CloudKits/miniprogram-foodmap/wiki/Service)
+## FAQ
+常见问题请参看 [FAQ](https://github.com/CloudKits/miniprogram-foodmap/wiki/FAQ)
+## 贡献说明
+欢迎您为项目提交 Pull Request；如果您在使用中有任何问题或有新的特性需求，请前往[ISSUE](https://github.com/CloudKits/miniprogram-foodmap/issues)提交新的 issue。
+## 寻求帮助
+您可以在 [支持社区](https://www.xieit.com/forum-51-1.html) 内发帖寻求帮助
+## 变更日志
+您可以访问[CHANGELOG](https://github.com/CloudKits/miniprogram-foodmap/blob/master/CHANGELOG)查看项目迭代情况
+## LICENSE
+本项目基于 Apache License 2.0 开放源代码授权
+# 源码链接
+https://github.com/CloudKits/miniprogram-foodmap
