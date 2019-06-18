@@ -467,3 +467,141 @@ db.collection('accounts')
   ```
   ## 账本页收支
 ![](https://camo.githubusercontent.com/75d424fb932f00f94c78df0f5683975d3d0419ad/68747470733a2f2f376136382d7a68682d636c6f75642d6237613161392d313235373839323938382e7463622e71636c6f75642e6c612f74726176656c626f6f6b2545362542432539342545372541342542416769662f2545382542342541362545362539432541432545362539342542362545362539342541462e6769663f7369676e3d323365613764363165643938643936363036316664666139393765303961303726743d31353432363130373537)
+因为收入与支出页面基本类似，所以使用自定义组件封装，可以复用。
+```javascript
+// 封装spendDetail组件
+// 注册组件
+properties: {
+    detail: {
+      type: Object
+    },
+    accountKey: {
+      type: Number
+    },
+    isSpend: {
+      type: Boolean
+    }
+}
+
+// 引用组件
+<van-tab title="支出">
+    <spendDetail detail="{{detail}}" accountKey="{{accountKey}}" isSpend="{{isSpend}}"></spendDetail>
+  </van-tab>
+  <van-tab title="收入">
+    <spendDetail detail="{{income}}" accountKey="{{accountKey}}" isSpend="{{isSpend}}"></spendDetail>
+</van-tab>
+```
+收入与支出类型icon选择使用两个view来存放，通过选择不同类型，跳转不同的icon
+```javascript
+// js
+data: {
+    address: '',
+    money: 0,
+    desc: '',
+    selectPicIndex: 0,
+    selectIndex: 0
+}
+// 选择消费类别
+selectSpend(e) {
+  let { index } = e.currentTarget.dataset
+  let { selectPicIndex } = this.data
+  selectPicIndex = index
+  this.setData({
+    selectPicIndex
+  })
+},
+
+// 选择消费类别中的细节
+selectSpendDetail(e) {
+  let { index } = e.currentTarget.dataset
+  let { selectIndex } = this.data
+  selectIndex = index
+  this.setData({
+    selectIndex
+  })
+}
+
+// wxml
+// 消费类型
+<view class="expense">
+  <block wx:for="{{detail}}" wx:key="index">
+    <view class="expense__type" bindtap="selectSpend" data-index="{{index}}">
+      <block wx:if="{{selectPicIndex == item.pic_index}}">
+        <view class="expense__type-icon" style="background-color: #e64343">
+          <image src="{{item.pic_url_act}}"></image>
+        </view>
+      </block>
+      <block wx:else>
+        <view class="expense__type-icon">
+          <image src="{{item.pic_url}}"></image>
+        </view>
+      </block>
+      <view class="expense__type-name">{{item.type}}</view>
+    </view>
+  </block>
+</view>
+
+// 消费子类型
+<view class="detail">
+  <block wx:for="{{detail[selectPicIndex].detail}}" wx:key="index">
+    <view class="detail__type" bindtap="selectSpendDetail" data-index="{{index}}">
+      <image class="detail__type-icon" src="{{item.detail_url}}"></image>
+      <block wx:if="{{selectIndex == item.detail_index}}">
+        <view class="detail__type-name" style="color: #f86319; border-bottom: 1rpx solid #f86319;">
+          {{item.detail_type}}
+        </view>
+      </block>
+      <block wx:else>
+        <view class="detail__type-name" style="border-bottom: 1rpx solid #e4e2e2;">
+          {{item.detail_type}}
+        </view>
+      </block>
+    </view>
+  </block>
+</view>
+```
+## 账本页明细
+![](https://puui.qpic.cn/vupload/0/20190618_1560844085773_tj4zundo26n.gif/0)
+因为收支明细中需要显示每一天的消费信息，所以需要将数据表中的数据通过时间来分类，分成若干个数组，页面从而使用wx:for来遍历这些数组。在显示之前，首先需要判断有无收支信息。
+```javascript
+// 通过时间分类算法  {} => [ [{时间1}], [{时间2}], [{时间3}] ]
+arr.forEach(item => {
+  if (!_this.isExist(item.fullDate, dateArr)) {
+    dateArr.push([item])
+  } else {
+    dateArr.forEach(res => {
+      if (res[0].fullDate == item.fullDate) {
+        res.push(item)
+      }
+    })
+  }
+})
+
+// 使用map 方法构造 [{}, {}, {}, ...] 类型数组
+dateArr = dateArr.map((item) => {
+  let spend = 0
+  let income = 0
+  item.forEach(res => {
+    if (res.money > 0) {
+      spend += res.money
+    } else {
+      income += (-res.money)
+    }
+  })
+  return {
+    item,
+    spend,
+    income
+  }
+})
+
+// 判断自身是否存在数组中
+isExist(item, arr) {
+    for (let i = 0; i < arr.length; i++) {
+      if (item == arr[i][0].fullDate)
+        return true
+    }
+    return false
+  }
+  ```
+  以上是小程序中比较复杂的逻辑实现。
