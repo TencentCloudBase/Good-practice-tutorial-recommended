@@ -76,3 +76,15 @@
 <button type="warn" bindtap="delete">删除</button>
 ```
 ![](https://puui.qpic.cn/vupload/0/20190618_1560842059815_nfusyuuau7.png/0)
+```javascript
+<view class="accountDesc" bindtap="viewDetail">
+    <!--使用wx:for遍历数据库账本信息-->
+    <view class="accountName">
+        <view>{{}}</view>
+        <view class="accountTime">{{}}</view>
+    </view>
+    
+    <!--绝对定位-->
+    <image class="updateImg" catchtap="editAccount" src="{{}}"></image>
+</view>
+```
