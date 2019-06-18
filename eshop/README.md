@@ -11,9 +11,9 @@
 云函数的代码存放在 `cloud/functions` 中，代码是按模块进行分割，每个模块有一个入口文件和一些执行具体逻辑的文件。
 ## 关于云函数
 在使用你自己的云函数环境时，需要将云函数初始化换成你小程序的云环境。有以下几个地方需要注意：
-`src/app.js`
-`cloud/functions` 下每个云函数里的 `index.js`
-`project.config.json` 里的appid需要换成你的小程序的 `appid`
+- `src/app.js`
+- `cloud/functions` 下每个云函数里的 `index.js`
+- `project.config.json` 里的appid需要换成你的小程序的 `appid`
 ```javascript
 // src/app.js
 async componentDidMount () {
