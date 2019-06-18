@@ -43,3 +43,14 @@
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841810370_zxgzdholi6j.png/0)
 接下来对每个页面的细节进行解构，并完成简单的wxml结构
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841863494_r2jb1rjjxz.png/0)
+```javascript
+<!--switchList使用定位布局-->
+<view bindtap="switchList" class="list"></view>
+
+<!--newAccount使用flex布局-->
+<view class="newAccount" bindtap="createNewAccount">
+    <view class="desc">旅行中的每一笔开支都有独特的意义！</view>
+    <image src="{{}}"></image>
+    <view class="title">创建一个新账本</view>
+</view>
+```
