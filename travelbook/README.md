@@ -167,4 +167,4 @@ days_style.push({
     lunar="true" header-style="header"calendar-style="calendar"days-color="{{days_style}}">
 </calendar>
 ```
-![](https://puui.qpic.cn/vupload/0/20190618_1560842442806_i03eiats4d.png/00)
+![](https://puui.qpic.cn/vupload/0/20190618_1560842442806_i03eiats4d.png/0)
