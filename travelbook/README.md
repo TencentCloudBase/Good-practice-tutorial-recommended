@@ -88,3 +88,59 @@
     <image class="updateImg" catchtap="editAccount" src="{{}}"></image>
 </view>
 ```
+![](https://puui.qpic.cn/vupload/0/20190618_1560842184322_kfrsl4rpv6p.png/0)
+```javascript
+<!--switchList使用定位布局-->
+<view bindtap="switchList" class="list"></view>
+
+<view class="account__list-year">{{}}</view>
+<view class="account__list-new account__list-public" bindtap="createNewAccount">
+    <!--日期小圆点-->
+    <view class="account__list-point"></view>
+    <view class="account__list-time">{{}}</view>
+    <image src="{{}}"></image>
+    <view class="account__list-title">创建一个新账本</view>
+</view>
+
+<!--使用wx:for遍历数据库账本信息-->
+<view class="account__list-item account__list-public" bindtap="viewDetail">
+    <!--日期小圆点-->
+    <view class="account__list-point"></view>
+    <image src="{{}}" mode="aspectFill"></image>
+    <view class="account__list-name">{{}}</view>
+    <view class="account__list-time">{{}}</view>
+    <image class="account__list-update" catchtap="editAccount" src="{{}}"></image>
+ </view>
+ ```
+ ![](https://puui.qpic.cn/vupload/0/20190618_1560842250801_o1qdpeigrhr.jpeg/0)
+ ```javascript
+ <view class="account__spend">
+    <image bindtap="getCalendar" class="account__spend-calendar" src="{{}}"></image>
+    <view class="account__spend-text">
+        <view class="account__spend-total">总花费(元)</view>
+        <view class="account__spend-num">{{}}</view>
+    </view>
+    <image bindtap="accountAnalyze" class="account__spend-detail" src="{{}}"></image>
+</view>
+
+<view class="account__show-time">今天</view>
+    <view class="account__show-detail">
+        <view class="account__show-income account__show-public">
+        <view class="account__show-title">收入(元)</view>
+        <text class="account__show-in">+{{}}</text>
+    </view>
+    <view class="account__show-spend account__show-public">
+        <view class="account__show-title">支出(元)</view>
+        <text class="account__show-out">-{{}}</text>
+    </view>
+</view>
+
+<!--使用wx:for遍历数据库账本信息-->
+<view class="account__show-items-spend">
+    <view>
+        <image src="{{}}"></image>
+    </view>
+    <text>{{}}</text>
+    <text class="account__show-items-money">{{}}</text>
+</view>
+```
