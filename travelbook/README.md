@@ -168,3 +168,30 @@ days_style.push({
 </calendar>
 ```
 ![](https://puui.qpic.cn/vupload/0/20190618_1560842442806_i03eiats4d.png/0)
+```javascript
+<!--顶栏日期及收支结构-->
+<view class="account__title">
+    <text class="account__title-time">{{}}</text>
+    <text class="account__title-spend">支出{{}}元 收入{{}}元</text>
+</view>
+
+<!--收支细节结构 使用flex弹性布局-->
+<view class="account__detail">
+    <image src="{{}}"></image>
+    <view class="account__detail-name">{{}}</view>
+    <view class="account__detail-money">{{}}</view>
+</view>
+```
+![](https://puui.qpic.cn/vupload/0/20190618_1560842599626_eqbucxicxre.png/0)
+```javascript
+<!--使用vant框架的van-tabs组件-->
+<!--并封装自定义组件复用收支页，自定义组件后面会详细说明-->
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="支出">
+    <spendDetail detail="{{detail}}" accountKey="{{accountKey}}"></spendDetail>
+  </van-tab>
+  <van-tab title="收入">
+    <spendDetail detail="{{income}}" accountKey="{{accountKey}}"></spendDetail>
+  </van-tab>
+</van-tabs>
+```
