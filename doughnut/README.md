@@ -5,7 +5,7 @@
 - 下载到本地 git clone https://github.com/dongxi346/doughnut.git 或者 下载 zip
 - 将 miniprogram 目录下的文件全部复制到你的 miniprogram
 - 修改 `app.js` 中的 `globalData` 字段修改
-```php
+```javascript
 this.globalData = {
   openid: '你的openid',
   evn: '你的开发环境'
