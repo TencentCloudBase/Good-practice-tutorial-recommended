@@ -1,14 +1,11 @@
 # IDE
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=201822)
-- [VSCode](https://code.visualstudio.com/Download)
-
+- [VSCode](https://code.visualstudio.com/Download)</br>
 小程序开发必然少不了微信开发者工具，再加上其对云开发的全面支持，再好不过的开发利器。但熟悉微信开发者工具的朋友们应该知道，它不支持[Emmet缩写语法](https://www.cnblogs.com/cnjava/p/3225174.html)，并且wxml的属性值默认用单引号表示(强迫症表示很难受)。
-而VSCode很好的补足了微信开发者工具的不足之处，并且支持多元化[插件开发](https://juejin.im/post/5a08d1d6f265da430f31950e)，轻量好用。
-
+而VSCode很好的补足了微信开发者工具的不足之处，并且支持多元化[插件开发](https://juejin.im/post/5a08d1d6f265da430f31950e)，轻量好用。</br>
 所以这里推荐采用微信开发者工具+VSCode配合开发。微信开发者工具负责调试、模拟小程序运行情况，VSCode负责代码编辑工作。二者各司其职，会使开发更加的高效、便捷
 # 总体架构
-该项目基于小程序云开发，使用的模板是[云开发快速启动模板](https://cloud.tencent.com/developer/article/1345310)
-
+该项目基于小程序云开发，使用的模板是[云开发快速启动模板](https://cloud.tencent.com/developer/article/1345310)</br>
 由于是个全栈项目，前端使用小程序所支持的wxml + wxss + js开发模式，命名采用[BEM](https://juejin.im/post/5bb4678a5188255c980be9d2)命名规范。后台则是借助云数据库+云储存进行数据管理。
 #### 项目总体结构
 ```javascript
@@ -35,8 +32,7 @@
         app.wxss       全局wxss
 ```        
 # 逆向工程
-在做该小程序之前，有必要进行项目的逆向工程，进一步解构每一个页面，从而深入了解这款小程序的交互细节。那么现在我假设自己为腾讯旅游的产品设计师，在绘制完界面原型后，撰写了相应的交互文档。当然解构过程中可能有些细节处理并没有那么仔细到位...
-
+在做该小程序之前，有必要进行项目的逆向工程，进一步解构每一个页面，从而深入了解这款小程序的交互细节。那么现在我假设自己为腾讯旅游的产品设计师，在绘制完界面原型后，撰写了相应的交互文档。当然解构过程中可能有些细节处理并没有那么仔细到位...</br>
 以下是我绘制的界面原型
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841685577_ez53lrmq4ji.jpeg/0)
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841745416_ilo7zykytkc.jpeg/0)
@@ -199,8 +195,7 @@ days_style.push({
 在做完逆向工程的解构，页面基础结构基本搭建完成。但页面依旧是静态的，需要数据来填充。所以第二步就是数据库的设计。而小程序的云控制台恰好提供了数据的操作功能，为数据驱动提供基石。
 ![](https://puui.qpic.cn/vupload/0/20190618_1560842693321_2iryp54j1mr.png/0)
 ## 云数据库设计
-云数据库是一种NoSQL数据库。每一张表是一个集合。值得注意的是在设计数据库时，`_id` 和`_openid`这两个字段需要带上。`_id`是表的主键，而`_openid`是用户标识，每个用户都有不同的`_openid`，可区分不同用户。
-
+云数据库是一种NoSQL数据库。每一张表是一个集合。值得注意的是在设计数据库时，`_id` 和`_openid`这两个字段需要带上。`_id`是表的主键，而`_openid`是用户标识，每个用户都有不同的`_openid`，可区分不同用户。</br>
 以下是项目中的数据表设计
 ```javascript
 cover_photos 账本封面表  用于存储创建账本时需要的封面信息
@@ -258,8 +253,7 @@ spend_items   消费明细表
 除此之外，它还会将你所上传的资源自动进行压缩操作，并生成一个地址供你引用。该项目中的一些图片资源就是存在于此，然后在云数据库的字段中引用这些资源地址即可，十分方便，不必在本地存储，占用小程序内存。
 ![](https://puui.qpic.cn/vupload/0/20190618_1560843165699_eczla5i3ixl.png/0)
 ## 云函数设计
-[云函数](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/guide/functions.html)简单来说就是在云后端(Node.js)运行的代码，本地看不到这些代码的执行过程，全封闭式只暴露接口供本地调用执行，本地只需等待云端代码执行完毕后返回结果。这也是[面向接口编程](https://www.cnblogs.com/bobodeboke/p/5733422.html)的思想体现。
-
+[云函数](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/guide/functions.html)简单来说就是在云后端(Node.js)运行的代码，本地看不到这些代码的执行过程，全封闭式只暴露接口供本地调用执行，本地只需等待云端代码执行完毕后返回结果。这也是[面向接口编程](https://www.cnblogs.com/bobodeboke/p/5733422.html)的思想体现。</br>
 项目中的云函数设计
 ![](https://puui.qpic.cn/vupload/0/20190618_1560843311997_6uz9ccu5erg.png/0)
 ```javascript
@@ -373,8 +367,7 @@ wx.cloud.callFunction({
 ```
 ## 账本页增删改
 ![](https://puui.qpic.cn/vupload/0/20190618_1560843593146_wui2kg9i3s.gif/0)
-账本页通过调用相应的云数据库API，可进行一系列的增删改操作。值得一提的是，修改时需要表单回显，删除时需要级联删除。因为一个账本中有许多收支情况，spend_items表就是进行收支记录，所以删除账本时需要级联删除对应的spend_items表中的收支信息。
-
+账本页通过调用相应的云数据库API，可进行一系列的增删改操作。值得一提的是，修改时需要表单回显，删除时需要级联删除。因为一个账本中有许多收支情况，spend_items表就是进行收支记录，所以删除账本时需要级联删除对应的spend_items表中的收支信息。</br>
 一些重要的逻辑
 - 封面单选逻辑
 ```javascript
