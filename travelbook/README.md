@@ -371,3 +371,99 @@ wx.cloud.callFunction({
     fail: console.error
 })
 ```
+## 账本页增删改
+![](https://puui.qpic.cn/vupload/0/20190618_1560843593146_wui2kg9i3s.gif/0)
+账本页通过调用相应的云数据库API，可进行一系列的增删改操作。值得一提的是，修改时需要表单回显，删除时需要级联删除。因为一个账本中有许多收支情况，spend_items表就是进行收支记录，所以删除账本时需要级联删除对应的spend_items表中的收支信息。
+
+一些重要的逻辑
+- 封面单选逻辑
+```javascript
+data: {
+    images: [],      // 封面数组
+    selectImg: null, // 选择其它封面
+    isSelected: {},  // 选中的图片
+    inputValue: '',  // 账本名字
+    now: null,       // 当前时间
+    account: {}      // 传入账本信息
+}
+
+  // 单选逻辑 通过构造{'0': isSelected}来实现
+selectThis(e) {
+    let index = e.currentTarget.dataset.index
+    let coverUrl = e.currentTarget.dataset.coverurl
+    let is = this.data.isSelected[index]
+    let obj = {
+        coverUrl
+    }
+    // obj[index] 属性动态改变
+    obj[index] = !is
+    obj.i = index
+    this.setData({
+        isSelected: obj
+    })
+}
+```
+- 表单回显逻辑
+```javascript
+// 页面加载时先通过对应的accountKey, 得到回显信息
+let { i, id, value, url, accountKey } = options
+photos.get({
+    success: res => {
+    this.setData({
+      images: res.data,
+      account: {
+        id,
+        value,
+        url,
+        i,
+        accountKey
+      },
+      isSelected: obj
+    })
+    wx.hideLoading()
+  }
+})
+// 修改
+save() {
+    let { id } = this.data.account
+    let { i, coverUrl, value } = this.data.isSelected
+    // 若没修改 则为之前的value
+    let inputValue = this.data.inputValue || value
+    
+    db.collection('accounts')
+      .doc(id)
+      .update({
+        data: {
+            inputValue,
+            coverUrl,
+            i
+        }
+    })
+}
+```
+- 级联删除逻辑
+```javascript
+db.collection('accounts')
+    .doc(this.data.account.id)
+    .remove()
+    .then(() => {
+      wx.hideLoading()
+      wx.showToast({
+        title: '删除成功'
+      })
+      setTimeout(() => {
+        wx.reLaunch({
+          url: '../accountBooks/accountBooks'
+        })
+      }, 400)
+    })
+  // 调用deleteItems云函数, 传入对应accountKey主键, 通过云函数批量删除
+  wx.cloud.callFunction({
+    name: 'deleteItems',
+    data: {
+      accountKey
+    }
+  })
+  ```
+  ## 账本页收支
+![](https://camo.githubusercontent.com/75d424fb932f00f94c78df0f5683975d3d0419ad/68747470733a2f2f376136382d7a68682d636c6f75642d6237613161392d313235373839323938382e7463622e71636c6f75642e6c612f74726176656c626f6f6b2545362542432539342545372541342542416769662f2545382542342541362545362539432541432545362539342542362545362539342541462e6769663f7369676e3d323365613764363165643938643936363036316664666139393765303961303726743d31353432363130373537)
