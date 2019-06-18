@@ -55,3 +55,23 @@
 </view>
 ```
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841983381_9t2npq4e0lc.jpeg/0)
+```javascript
+<!--整体用flex + 百分比布局-->
+<input type="text" class="accuntName" placeholder="旅行账本名称" bindinput="getInput" />
+  
+<van-panel title="选择封面" class="panel">
+    <van-row class="imageBox">
+        <!--使用wx:for遍历数据库账本图片信息-->
+        <van-col span="8" class="imgCol" bindtap="selectThis">
+            <image class="select" src="{{}}"></image>
+        </van-col>
+        
+        <van-col span="8">
+            <view class="addBox" bindtap="useMore">更多封面</view>
+        </van-col>
+    </van-row>
+</van-panel>
+
+<button type="primary" bindtap="save">保存</button>
+<button type="warn" bindtap="delete">删除</button>
+```
