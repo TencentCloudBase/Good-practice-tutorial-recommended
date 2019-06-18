@@ -261,3 +261,31 @@ spend_items   消费明细表
 [云函数](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/guide/functions.html)简单来说就是在云后端(Node.js)运行的代码，本地看不到这些代码的执行过程，全封闭式只暴露接口供本地调用执行，本地只需等待云端代码执行完毕后返回结果。这也是[面向接口编程](https://www.cnblogs.com/bobodeboke/p/5733422.html)的思想体现。
 
 项目中的云函数设计
+![](https://puui.qpic.cn/vupload/0/20190618_1560843311997_6uz9ccu5erg.png/0)
+```javascript
+// getTime  获取当前时间并格式化为 yyyy-mm-dd
+
+// 云函数入口文件
+const cloud = require('wx-server-sdk')
+
+// 初始化云函数
+cloud.init()
+
+// 云函数入口函数
+exports.main = async (event, context) => {
+  var date = new Date()
+  var seperator1 = "-"
+  var year = date.getFullYear()
+  var month = date.getMonth() + 1
+  var strDate = date.getDate()
+  if (month >= 1 && month <= 9) {
+    month = "0" + month
+  }
+  if (strDate >= 0 && strDate <= 9) {
+    strDate = "0" + strDate
+  }
+  // 格式化当前时间
+  var currentdate = year + seperator1 + month + seperator1 + strDate
+  return currentdate
+}
+```
