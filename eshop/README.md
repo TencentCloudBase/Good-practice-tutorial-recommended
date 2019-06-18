@@ -25,3 +25,16 @@ async componentDidMount () {
   setGlobalData('userData', userData)
 }
 ```
+```javascript
+// 例： cloud/functions/cart/index.js
+...
+app.init({
+  envName: 'wushufang-h36jx', // 换成你的云函数环境
+  mpAppId: 'wx22203329a468e8a1' // 换成你的小程序id
+})
+...
+```
+## 如果有问题怎么办？
+> 您可以到 Taro 社区 [小程序·云开发](https://taro-club.jd.com/category/14/%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E4%BA%91%E5%BC%80%E5%8F%91) 版块来讨论咯
+# 源码链接
+https://github.com/honlyHuang/eshop
