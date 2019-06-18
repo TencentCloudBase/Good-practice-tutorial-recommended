@@ -54,3 +54,4 @@
     <view class="title">创建一个新账本</view>
 </view>
 ```
+![](https://puui.qpic.cn/vupload/0/20190618_1560841983381_9t2npq4e0lc.jpeg/0)
