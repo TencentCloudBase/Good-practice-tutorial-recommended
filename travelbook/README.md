@@ -144,3 +144,27 @@
     <text class="account__show-items-money">{{}}</text>
 </view>
 ```
+![](https://puui.qpic.cn/vupload/0/20190618_1560842373409_km8tjmyscql.png/0)
+```javascript
+<!--日历使用极点日历的插件-->
+<!--json中做配置-->
+"usingComponents": {
+    "calendar": "plugin://calendar/calendar"
+}
+
+<!--js改变样式-->
+days_style.push({
+  month: 'current',
+  day: new Date().getDate(),
+  color: 'white',
+  background: '#e0a58e'
+})
+
+<!--wxml中引用-->
+<calendar weeks-type="cn" cell-size="50" next="{{true}}" prev="{{true}}"
+    show-more-days="{{true}}" calendar-style="demo6-calendar"
+    header-style="calendar-header"board-style="calendar-board" active-type="rounded" 
+    lunar="true" header-style="header"calendar-style="calendar"days-color="{{days_style}}">
+</calendar>
+```
+![](https://puui.qpic.cn/vupload/0/20190618_1560842442806_i03eiats4d.png/00)
