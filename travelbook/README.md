@@ -40,3 +40,5 @@
 以下是我绘制的界面原型
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841685577_ez53lrmq4ji.jpeg/0)
 ![](https://puui.qpic.cn/vupload/0/20190618_1560841745416_ilo7zykytkc.jpeg/0)
+![](https://puui.qpic.cn/vupload/0/20190618_1560841810370_zxgzdholi6j.png/0)
+接下来对每个页面的细节进行解构，并完成简单的wxml结构
