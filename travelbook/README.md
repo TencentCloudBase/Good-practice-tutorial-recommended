@@ -200,4 +200,64 @@ days_style.push({
 ![](https://puui.qpic.cn/vupload/0/20190618_1560842693321_2iryp54j1mr.png/0)
 ## 云数据库设计
 云数据库是一种NoSQL数据库。每一张表是一个集合。值得注意的是在设计数据库时，`_id` 和`_openid`这两个字段需要带上。`_id`是表的主键，而`_openid`是用户标识，每个用户都有不同的`_openid`，可区分不同用户。
+
 以下是项目中的数据表设计
+```javascript
+cover_photos 账本封面表  用于存储创建账本时需要的封面信息
+    - _id
+    - _openid
+    - cover_index 封面索引
+    - cover_url   封面url
+    - isSelected  封面是否选中
+```
+```javascript
+accounts 账本表   用于存储用户创建的账本
+    - _id
+    - _openid
+    - accountKey  账本唯一标识
+    - coverUrl    账本封面
+    - i           账本索引
+    - inputValue  账本名字
+    - now         账本创建时间
+    - spend       账本总花费
+```
+```javascript
+account_detail 支出类型表   用于存储消费类型
+    - _id
+    - _openid
+    - detail       类型细节
+    - pic_index    消费类型索引
+    - pic_url      未点击时的图片
+    - pic_url_act  点击后的图片
+    - type         消费类型
+```
+```javascript
+account_income 收入类型表   用于存储收入类型
+    - _id
+    - _openid
+    - pic_index    收入类型索引
+    - pic_url      未点击时的图片
+    - pic_url_act  点击后的图片
+    - type         收入类型
+```
+```javascript
+spend_items   消费明细表
+    - _id
+    - _openid
+    - accountKey   账本唯一标识
+    - address      消费地点
+    - desc         消费描述
+    - fullDate     消费时间
+    - money        消费金额
+    - pic_type     消费类型
+    - pic_url      消费类型图片
+```    
+## 云储存管理
+这是个非常实用的板块。类似于[百度云盘](https://pan.baidu.com/)，它提供了文件存储、上传与下载功能。
+![](https://puui.qpic.cn/vupload/0/20190618_1560843125594_leagaa09yfi.png/0)
+除此之外，它还会将你所上传的资源自动进行压缩操作，并生成一个地址供你引用。该项目中的一些图片资源就是存在于此，然后在云数据库的字段中引用这些资源地址即可，十分方便，不必在本地存储，占用小程序内存。
+![](https://puui.qpic.cn/vupload/0/20190618_1560843165699_eczla5i3ixl.png/0)
+## 云函数设计
+[云函数](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/guide/functions.html)简单来说就是在云后端(Node.js)运行的代码，本地看不到这些代码的执行过程，全封闭式只暴露接口供本地调用执行，本地只需等待云端代码执行完毕后返回结果。这也是[面向接口编程](https://www.cnblogs.com/bobodeboke/p/5733422.html)的思想体现。
+
+项目中的云函数设计
