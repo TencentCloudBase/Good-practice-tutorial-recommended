@@ -1,7 +1,7 @@
 # Good-practice-tutorial-recommended
 ## 优秀实践教程推荐
 ### 该Repositories存放了优秀实践教程推荐，可自行下载查阅。
-- 甜甜圈 - [doughnut](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/doughnut)</br>
+- 甜甜圈论坛 - [doughnut](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/doughnut)</br>
 链接：https://github.com/dongxi346/doughnut</br>
 - Taro·小程序云开发电商 - [eshop](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/eshop)</br>
 链接：https://github.com/honlyHuang/eshop</br>
