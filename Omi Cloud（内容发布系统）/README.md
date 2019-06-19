@@ -438,9 +438,5 @@ exports.main = async (event, context) => {
 
 不过最新的IED，云函数支持了本地调试功能，感兴趣的可以[点击这里](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/guide/functions/local-debug.html)了解下。
 
-## 相关链接
-
-- [源码地址](https://github.com/Tencent/omi/tree/master/packages/omi-cloud)
-- [官方教程](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-- [小程序端 API 文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/)
-- [服务端 API 文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-server-api/)
+## 源码链接
+https://github.com/Tencent/omi
