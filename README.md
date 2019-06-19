@@ -14,6 +14,6 @@
 - 日语用例助手 - [yourei-jp](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/yourei-jp%EF%BC%88%E6%97%A5%E8%AF%AD%E7%94%A8%E4%BE%8B%E5%8A%A9%E6%89%8B%EF%BC%89)</br>
 链接：https://github.com/evont/yourei-jp</br>
 - 内容发布系统 - [Omi Cloud]()</br>
-链接：
+链接：https://github.com/Tencent/omi</br>
 
 >该Repositories不定期更新
