@@ -1,7 +1,7 @@
 # Good-practice-tutorial-recommended
 ## 优秀实践教程推荐
 ### 该Repositories存放了优秀实践教程推荐，可自行下载查阅。
-- 甜甜圈论坛 - [doughnut](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/doughnut%EF%BC%88%E7%94%9C%E7%94%9C%E5%9C%88%E8%AE%BA%E5%9D%9B%EF%BC%89/README.md)</br>
+- 甜甜圈论坛 - [doughnut](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/doughnut%EF%BC%88%E7%94%9C%E7%94%9C%E5%9C%88%E8%AE%BA%E5%9D%9B%EF%BC%89)</br>
 链接：https://github.com/dongxi346/doughnut</br>
 - Taro·小程序云开发电商 - [eshop](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/eshop%EF%BC%88Taro%C2%B7%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BA%91%E5%BC%80%E5%8F%91%E7%94%B5%E5%95%86%EF%BC%89)</br>
 链接：https://github.com/honlyHuang/eshop</br>
@@ -15,7 +15,7 @@
 链接：https://github.com/evont/yourei-jp</br>
 - 内容发布系统 - [Omi Cloud](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Omi%20Cloud%EF%BC%88%E5%86%85%E5%AE%B9%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F%EF%BC%89)</br>
 链接：https://github.com/Tencent/omi</br>
-- 多媒体小程序 - [multimedia](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F/README.md)</br>
+- 多媒体小程序 - [multimedia](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F)</br>
 链接：https://github.com/wch853/lovc</br>
 
 >该Repositories不定期更新
