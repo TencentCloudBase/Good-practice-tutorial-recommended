@@ -19,3 +19,26 @@
 学习 Taro 框架：<https://taro-docs.jd.com>
 
 学习小程序云开发：<https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html>
+
+- # 课后作业
+- ## 作业实现内容：
+1.完善项目内容，如增加搜索页面
+
+2.细化项目，如首页 UI 优化，流程异常处理，小程序端的授权登录
+
+3.新增数据状态管理器，如 redux，将数据与视图分离
+
+- ## 作业提交规范：
+1.项目的Github地址
+
+2.参与队员名字与github
+
+3.100字以内的介绍
+
+4.大致实现思路 && 架构图 && 流程图
+
+- ## 作业提交地址：
+通过官方博客的Issue提交：<https://github.com/TencentCloudBase/blog/issues>
+
+Issue标题格式：”直播作业-分享人-项目名称”
+
