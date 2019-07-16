@@ -15,7 +15,7 @@
 链接：https://github.com/evont/yourei-jp</br>
 - 内容发布系统 - [Omi Cloud](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Omi%20Cloud%EF%BC%88%E5%86%85%E5%AE%B9%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F%EF%BC%89)</br>
 链接：https://github.com/Tencent/omi</br>
-- 多媒体小程序 - [多媒体小程序](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F/README.md)</br>
+- 多媒体小程序 - [multimedia](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F/README.md)</br>
 链接：https://github.com/wch853/lovc</br>
 
 >该Repositories不定期更新
