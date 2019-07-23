@@ -20,4 +20,6 @@
 - 电商小程序开发（初级）- [e-business](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/%E7%94%B5%E5%95%86%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%EF%BC%88%E5%88%9D%E7%BA%A7%EF%BC%89)</br>
 链接：https://github.com/jinjinjin0731/eshop</br>
 - 迷你微博 - [Mini microblog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20microblog%EF%BC%88%E8%BF%B7%E4%BD%A0%E5%BE%AE%E5%8D%9A%EF%BC%89)</br>
+链接：https://github.com/KuthorX/KuthorX-Helper</br>
+
 >该Repositories不定期更新
