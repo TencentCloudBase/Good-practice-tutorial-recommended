@@ -15,7 +15,7 @@
 链接：https://github.com/evont/yourei-jp</br>
 - 内容发布系统 - [Omi Cloud](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Omi%20Cloud%EF%BC%88%E5%86%85%E5%AE%B9%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F%EF%BC%89)</br>
 链接：https://github.com/Tencent/omi</br>
-- 多媒体小程序 - [multimedia](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/blob/master/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F)</br>
+- 多媒体小程序 - [multimedia](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/multimedia%EF%BC%88%E5%A4%9A%E5%AA%92%E4%BD%93%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%89)</br>
 链接：https://github.com/wch853/lovc</br>
 - 电商小程序开发（初级）- [e-business](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/%E7%94%B5%E5%95%86%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%EF%BC%88%E5%88%9D%E7%BA%A7%EF%BC%89)</br>
 链接：https://github.com/jinjinjin0731/eshop</br>
