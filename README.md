@@ -22,5 +22,8 @@
 - 迷你微博 - [Mini microblog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20microblog%EF%BC%88%E8%BF%B7%E4%BD%A0%E5%BE%AE%E5%8D%9A%EF%BC%89)</br>
 链接：https://github.com/KuthorX/KuthorX-Helper</br>
 - 共享名片 - [Shared business card](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Shared%20business%20card%EF%BC%88%E5%85%B1%E4%BA%AB%E5%90%8D%E7%89%87%EF%BC%89)</br>
+链接：
+- BBC新闻摘要 - [BBC News Summary](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/BBC%20News%20Summary%EF%BC%88BBC%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81%EF%BC%89)</br>
+链接：
 
 >该Repositories不定期更新
