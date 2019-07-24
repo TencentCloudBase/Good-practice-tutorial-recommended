@@ -21,6 +21,6 @@
 链接：https://github.com/jinjinjin0731/eshop</br>
 - 迷你微博 - [Mini microblog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20microblog%EF%BC%88%E8%BF%B7%E4%BD%A0%E5%BE%AE%E5%8D%9A%EF%BC%89)</br>
 链接：https://github.com/KuthorX/KuthorX-Helper</br>
-- 共享名片 - []()
+- 共享名片 - [Shared business card](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Shared%20business%20card%EF%BC%88%E5%85%B1%E4%BA%AB%E5%90%8D%E7%89%87%EF%BC%89)</br>
 
 >该Repositories不定期更新
