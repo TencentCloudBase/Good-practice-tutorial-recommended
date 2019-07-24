@@ -24,6 +24,6 @@
 - 共享名片 - [Shared business card](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Shared%20business%20card%EF%BC%88%E5%85%B1%E4%BA%AB%E5%90%8D%E7%89%87%EF%BC%89)</br>
 链接：
 - BBC新闻摘要 - [BBC News Summary](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/BBC%20News%20Summary%EF%BC%88BBC%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81%EF%BC%89)</br>
-链接：
+链接：https://mp.weixin.qq.com/s/H8pMH0X5_cnd5BJcZ3qr6w
 
 >该Repositories不定期更新
