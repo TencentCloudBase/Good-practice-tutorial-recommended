@@ -25,5 +25,6 @@
 链接：
 - BBC新闻摘要 - [BBC News Summary](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/BBC%20News%20Summary%EF%BC%88BBC%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81%EF%BC%89)</br>
 链接：https://mp.weixin.qq.com/s/H8pMH0X5_cnd5BJcZ3qr6w
-
+- 随手记Lite小程序 - [Keep in mind Lite]()</br>
+链接：
 >该Repositories不定期更新
