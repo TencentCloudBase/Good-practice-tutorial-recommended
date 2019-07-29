@@ -1,3 +1,5 @@
+# 口袋工具y
+
 ## 前言
 本项目是一个基于云开发的小程序。
 
@@ -446,3 +448,6 @@ exports.main = async(event, context) => {
 
 
 如果你喜欢这篇文章或是这个项目，不妨进去点个Star支持下 today。
+
+# 源码链接
+https://github.com/GoKu-gaga/today
