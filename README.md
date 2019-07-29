@@ -27,4 +27,6 @@
 链接：https://mp.weixin.qq.com/s/H8pMH0X5_cnd5BJcZ3qr6w
 - 随手记Lite小程序 - [Keep in mind Lite](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Keep%20in%20mind%20Lite%EF%BC%88%E9%9A%8F%E6%89%8B%E8%AE%B0Lite%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%89)</br>
 链接：
+- 历史上的今天 - [Today](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Today%EF%BC%88%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%BB%8A%E5%A4%A9%EF%BC%89)</br>
+链接：https://github.com/GoKu-gaga/today
 >该Repositories不定期更新
