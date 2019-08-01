@@ -29,4 +29,6 @@
 链接：
 - 历史上的今天 - [Today](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Today%EF%BC%88%E5%8E%86%E5%8F%B2%E4%B8%8A%E7%9A%84%E4%BB%8A%E5%A4%A9%EF%BC%89)</br>
 链接：https://github.com/GoKu-gaga/today
+- 体重记录 - [Weight record](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Weight%20record%EF%BC%88%E4%BD%93%E9%87%8D%E8%AE%B0%E5%BD%95%EF%BC%89)</br>
+链接：https://juejin.im/post/5d359484f265da1bb5653716
 >该Repositories不定期更新
