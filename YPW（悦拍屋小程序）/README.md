@@ -323,4 +323,4 @@ exports.main = async (event, context) => {
 - 技术文档：[ES6](https://es6.ruanyifeng.com/)
 
 # 源码链接
-https://github.com/xmc1214/YPW
+<https://github.com/xmc1214/YPW>
