@@ -36,7 +36,7 @@
 
 ![](https://upload-images.jianshu.io/upload_images/4252197-8a018a5b2eab4989.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-调用方法的参数
+调用方法的参数：
 
 ```
   let param = {
