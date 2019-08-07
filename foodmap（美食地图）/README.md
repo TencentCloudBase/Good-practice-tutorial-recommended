@@ -39,5 +39,6 @@
 您可以访问[CHANGELOG](https://github.com/CloudKits/miniprogram-foodmap/blob/master/CHANGELOG)查看项目迭代情况
 ## LICENSE
 本项目基于 Apache License 2.0 开放源代码授权
+
 # 源码链接
-https://github.com/CloudKits/miniprogram-foodmap
+<https://github.com/CloudKits/miniprogram-foodmap>
