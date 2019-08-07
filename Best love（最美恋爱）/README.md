@@ -116,6 +116,7 @@ view{text-align: center;margin: 20px 0;font-weight: bold;}
 text{color: #FFC0CB;}
 image{width: 100rpx;height: 100rpx}
 button{background-color: #FFC0CB;color:#fff;width: 300rpx}
+```
 
 # 源码链接
 <https://www.jianshu.com/p/5ea34f1bc3e3>
