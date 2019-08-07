@@ -60,13 +60,62 @@
 
 ![](https://upload-images.jianshu.io/upload_images/4252197-8d490dae4b574c73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-还有个留言板，比较鸡肋，她说这和微信聊天有什么区别（区别就在于没有websocket）
+还有个留言板功能，她说和微信聊天有什么区别（区别就在于没有websocket），这里就不赘述啦。
 
 
 
 # 四、结语
 七夕已至，快和亲爱的人绑定最美恋爱关系吧！在这里，你们就是导演，记录美好爱情。
 特别说明：此小程序，是我亲手为女朋友写的，感谢她提供需求支持，七夕快乐。
+
+❤️ 小彩蛋 ❤️
+
+使用小程序·云开发按以下四步操作即可查看惊喜彩蛋~
+
+在cloudfuntions文件夹下，点击右键新建一个云函数love，并部署上传，
+```javascript
+exports.main = async (event, context) => {
+  return {
+    timelimit: 10000,
+  }
+}
+```
+使用开发者工具新增一个小程序页面love，在love.wxml里输入以下代码
+
+```html
+<view>你问我爱你多少年？</view>
+<image bindtap="loveFunction" src="{{loveurl}}"></image>
+<view wx:if="{{timelimit}}">
+  <view><text>我爱你{{timelimit}}年</text></view>
+  <view><text>云开发祝所有程序员七夕脱单</text></view>  
+</view>
+```
+在love.js里输入：
+```javascript
+  data: {
+    timelimit:'',
+    loveurl:"https://tcb-1251009918.cos.ap-guangzhou.myqcloud.com/love.png",
+  },
+
+  loveFunction() {
+    wx.cloud.callFunction({
+      name: 'love',
+      data: {
+      },
+      success: res => {
+        this.setData({
+          timelimit: JSON.stringify(res.result.timelimit)
+        })
+      }
+    })
+  },
+```
+在love.wxss里输入：
+```css
+view{text-align: center;margin: 20px 0;font-weight: bold;}
+text{color: #FFC0CB;}
+image{width: 100rpx;height: 100rpx}
+button{background-color: #FFC0CB;color:#fff;width: 300rpx}
 
 # 源码链接
 <https://www.jianshu.com/p/5ea34f1bc3e3>
