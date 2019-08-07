@@ -565,5 +565,6 @@ css 样式如下：
 >- 其他用户发布的内容，有时候显示不出来？ 将数据库的权限设置为全部人可见。
 >- 发布内容之后返回首页没有自动刷新？ 在广场首页 onShow 的时候获取数据库的数据进行展示。
 >- clone 源码后运行不起来？ 需要在自己的云数据库中创建对应的表。
+
 # 源码链接
-https://github.com/dongxi346/doughnut
+<https://github.com/dongxi346/doughnut>
