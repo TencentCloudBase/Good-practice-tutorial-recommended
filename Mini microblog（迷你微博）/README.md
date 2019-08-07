@@ -1130,4 +1130,4 @@ Component({
 那么关于迷你版微博开发实战介绍就到此为止了，更多资料可以直接下载源码查看哦。
 
 # 源码链接
-https://github.com/KuthorX/KuthorX-Helper
+<https://github.com/KuthorX/KuthorX-Helper>
