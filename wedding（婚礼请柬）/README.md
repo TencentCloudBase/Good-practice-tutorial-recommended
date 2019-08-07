@@ -17,4 +17,4 @@ npm run build
 npm run build --report
 ```
 # 源码链接
-https://gitee.com/roberthuang123/wedding
+<https://gitee.com/roberthuang123/wedding>
