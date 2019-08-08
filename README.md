@@ -32,5 +32,7 @@
 - 体重记录 - [Weight record](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Weight%20record%EF%BC%88%E4%BD%93%E9%87%8D%E8%AE%B0%E5%BD%95%EF%BC%89)</br>
 链接：https://juejin.im/post/5d359484f265da1bb5653716
 - 悦拍屋小程序 - [YPW](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/YPW%EF%BC%88%E6%82%A6%E6%8B%8D%E5%B1%8B%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%89)</br>
-链接:https://github.com/xmc1214/YPW
+链接：https://github.com/xmc1214/YPW
+- 诗词古语 - [Ancient poetry](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Ancient%20poetry%EF%BC%88%E8%AF%97%E8%AF%8D%E5%8F%A4%E8%AF%AD%EF%BC%89)</br>
+链接：https://github.com/caochangkui/miniprogram-project
 >该Repositories不定期更新
