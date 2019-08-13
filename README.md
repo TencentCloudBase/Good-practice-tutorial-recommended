@@ -35,4 +35,6 @@
 链接：https://github.com/xmc1214/YPW
 - 诗词古语 - [Ancient poetry](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Ancient%20poetry%EF%BC%88%E8%AF%97%E8%AF%8D%E5%8F%A4%E8%AF%AD%EF%BC%89)</br>
 链接：https://github.com/caochangkui/miniprogram-project
+- 记录心情小程序 - [Diary](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Diary%EF%BC%88%E8%AE%B0%E5%BD%95%E5%BF%83%E6%83%85%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%89)</br>
+链接：https://gitee.com/roberthuang123/diary
 >该Repositories不定期更新
