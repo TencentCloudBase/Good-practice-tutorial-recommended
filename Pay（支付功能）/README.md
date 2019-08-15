@@ -46,7 +46,7 @@
 
 ![](https://upload-images.jianshu.io/upload_images/6273713-c61cb1cb5880c475.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![](https://upload-images.jianshu.io/upload_images/6273713-cd34c63e39e6427f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://puui.qpic.cn/vupload/0/20190815_1565838407431_frsvtt3nzii.png/0)
 
 ![](https://upload-images.jianshu.io/upload_images/6273713-768712337485bf67.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
