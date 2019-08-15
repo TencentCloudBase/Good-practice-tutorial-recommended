@@ -37,4 +37,6 @@
 链接：https://github.com/caochangkui/miniprogram-project
 - 记录心情小程序 - [Diary](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Diary%EF%BC%88%E8%AE%B0%E5%BD%95%E5%BF%83%E6%83%85%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%89)</br>
 链接：https://gitee.com/roberthuang123/diary
+- 支付功能 - [Pay](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Pay%EF%BC%88%E6%94%AF%E4%BB%98%E5%8A%9F%E8%83%BD%EF%BC%89)
+链接：https://github.com/qiushi123/cloud-pay
 >该Repositories不定期更新
