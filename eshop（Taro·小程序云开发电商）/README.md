@@ -38,4 +38,4 @@ app.init({
 > 您可以到 Taro 社区 [小程序·云开发](https://taro-club.jd.com/category/14/%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E4%BA%91%E5%BC%80%E5%8F%91) 版块来讨论咯
 
 # 源码链接
-<https://github.com/honlyHuang/eshop>
+[https://github.com/honlyHuang/eshop](https://github.com/honlyHuang/eshop)
