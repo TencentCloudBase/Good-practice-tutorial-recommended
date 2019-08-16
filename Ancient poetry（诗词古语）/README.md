@@ -336,4 +336,4 @@ collection.update 函数调用成功单返回的却是0行记录被更新，因�
 ```
 
 ## 源码链接
-<https://github.com/caochangkui/miniprogram-project>
+[https://github.com/caochangkui/miniprogram-project](https://github.com/caochangkui/miniprogram-project)
