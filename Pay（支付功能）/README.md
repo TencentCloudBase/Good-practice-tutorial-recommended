@@ -214,24 +214,4 @@ Page({
 
 # 源码地址：
 
-<https://github.com/qiushi123/cloud-pay>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[https://github.com/qiushi123/cloud-pay](https://github.com/qiushi123/cloud-pay)
