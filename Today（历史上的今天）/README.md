@@ -451,4 +451,4 @@ exports.main = async(event, context) => {
 
 
 # 源码链接
-<https://github.com/GoKu-gaga/today>
+[https://github.com/GoKu-gaga/today](https://github.com/GoKu-gaga/today)
