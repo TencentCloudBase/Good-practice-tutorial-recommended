@@ -567,4 +567,4 @@ css 样式如下：
 >- clone 源码后运行不起来？ 需要在自己的云数据库中创建对应的表。
 
 # 源码链接
-<https://github.com/dongxi346/doughnut>
+[https://github.com/dongxi346/doughnut](https://github.com/dongxi346/doughnut)
