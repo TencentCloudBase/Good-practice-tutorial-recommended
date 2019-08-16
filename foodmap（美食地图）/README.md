@@ -41,4 +41,4 @@
 本项目基于 Apache License 2.0 开放源代码授权
 
 # 源码链接
-<https://github.com/CloudKits/miniprogram-foodmap>
+[https://github.com/CloudKits/miniprogram-foodmap](https://github.com/CloudKits/miniprogram-foodmap)
