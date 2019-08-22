@@ -39,4 +39,6 @@
 链接：https://gitee.com/roberthuang123/diary
 - 支付功能 - [Pay](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Pay%EF%BC%88%E6%94%AF%E4%BB%98%E5%8A%9F%E8%83%BD%EF%BC%89)</br>
 链接：https://github.com/qiushi123/cloud-pay
+- 发送邮件 - [send email](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/send%20email%EF%BC%88%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%EF%BC%89)</br>
+链接：https://github.com/qiushi123/cloud-email
 >该Repositories不定期更新
