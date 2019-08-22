@@ -37,7 +37,7 @@
 
 关于小程序的注册和创建就不在此赘述，有需要的同学可以参照官方文档：
 
-https://dwz.cn/HpcWynVz
+[https://dwz.cn/HpcWynVz](https://dwz.cn/HpcWynVz)
 
 下图是我们创建好的小程序。
 
@@ -137,7 +137,7 @@ exports.main = async(event, context) => {
 
 然后在index.js里调用我们的sendEmail云函数。
 
-![image.png](https://upload-images.jianshu.io/upload_images/6273713-5d31566ed22c5afe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/6273713-5d31566ed22c5afe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 八、点击发送邮件，查看效果
 可以看到我们的控制台，打印里发送成功的日志信息：
