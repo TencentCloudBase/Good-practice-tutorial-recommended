@@ -13,7 +13,7 @@
 ## 2. 小程序预览：
 
 <br>
-<img src="https://www.cnblogs.com/images/cnblogs_com/cckui/1107952/o_WechatIMG732.jpg" width="240" />
+<img src="https://puui.qpic.cn/vupload/0/20190809_1565314668113_0ascs92ffzmi.jpeg/0" width="240" />
 <br>
 
 ## 3. 部分截图
