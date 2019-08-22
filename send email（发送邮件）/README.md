@@ -28,7 +28,7 @@
 ![](https://upload-images.jianshu.io/upload_images/6273713-8339cd760cbacfe8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 具体操作可以看官方文档，官方文档有具体的讲解，这里我就不多说了。
-官方文档：https://dwz.cn/SJCibDEi
+官方文档：[https://dwz.cn/SJCibDEi](https://dwz.cn/SJCibDEi)
 我们获取的授权码如下图。请保存好这个授权码，我们后面发送邮件时会用到。
 
 ![](https://upload-images.jianshu.io/upload_images/6273713-3c7d37f086014756.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
