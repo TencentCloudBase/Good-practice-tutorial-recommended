@@ -1,9 +1,7 @@
-> 前面给大家讲过一个借助小程序云开发实现微信支付的，但是那个操作稍微有点繁琐，并且还会经常出现问题，今天就给大家讲一个简单的，并且借助官方支付api实现小程序支付功能。
-
 传送门：
 [借助小程序云开发实现小程序支付功能](https://developers.weixin.qq.com/community/develop/article/doc/000ceae09288489c0e9886e6c59c13)
 
-老规矩，先看本节效果图
+先看效果图：
 
 ![](https://upload-images.jianshu.io/upload_images/6273713-fce2f4ffa8f92d99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
