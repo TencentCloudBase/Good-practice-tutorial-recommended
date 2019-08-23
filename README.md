@@ -28,7 +28,7 @@
 - 电商小程序开发（初级）- [e-business](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/%E7%94%B5%E5%95%86%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%EF%BC%88%E5%88%9D%E7%BA%A7%EF%BC%89)</br>
 链接：[https://github.com/jinjinjin0731/eshop](https://github.com/jinjinjin0731/eshop)</br>
 
-- 迷你微博 - [Mini microblog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20microblog%EF%BC%88%E8%BF%B7%E4%BD%A0%E5%BE%AE%E5%8D%9A%EF%BC%89)</br>
+- Mini微博 - [Mini microblog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20microblog%EF%BC%88%E8%BF%B7%E4%BD%A0%E5%BE%AE%E5%8D%9A%EF%BC%89)</br>
 链接：[https://github.com/KuthorX/KuthorX-Helper](https://github.com/KuthorX/KuthorX-Helper)</br>
 
 - 共享名片 - [Shared business card](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Shared%20business%20card%EF%BC%88%E5%85%B1%E4%BA%AB%E5%90%8D%E7%89%87%EF%BC%89)</br>
@@ -63,4 +63,7 @@
 
 - Mini论坛 - [Mini forum](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20forum%EF%BC%88Mini%E8%AE%BA%E5%9D%9B%EF%BC%89)</br>
 链接：[https://github.com/vimerzhao/RssHub](https://github.com/vimerzhao/RssHub)</br>
+
+- Mini博客 - [Mini Blog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20Blog%EF%BC%88Mini%E5%8D%9A%E5%AE%A2%EF%BC%89)</br>
+链接：[https://github.com/CavinCao/mini-blog](https://github.com/CavinCao/mini-blog)
 >该Repositories不定期更新
