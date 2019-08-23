@@ -399,4 +399,4 @@ async function addPostQrCode(event)
 - 如果你的想法和流程都非常清晰，但还是没办法实现你的预期功能，那我建议你先放放，先把`html`,`css`,`javascript`熟悉下，再看几遍小程序的文档，也许你当时面临的问题就不再是问题了。
 
 # 源码链接
-[https://github.com/CavinCao/mini-blog?from=singlemessage&isappinstalled=0](https://github.com/CavinCao/mini-blog?from=singlemessage&isappinstalled=0)
+[https://github.com/CavinCao/mini-blog](https://github.com/CavinCao/mini-blog)
