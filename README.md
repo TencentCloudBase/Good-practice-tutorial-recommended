@@ -66,4 +66,7 @@
 
 - Mini博客 - [Mini Blog](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Mini%20Blog%EF%BC%88Mini%E5%8D%9A%E5%AE%A2%EF%BC%89)</br>
 链接：[https://github.com/CavinCao/mini-blog](https://github.com/CavinCao/mini-blog)</br>
+
+- 运动圈 - [Motion circle](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Motion%20circle%EF%BC%88%E8%BF%90%E5%8A%A8%E5%9C%88%EF%BC%89)</br>
+链接：[https://github.com/colddayer/TTcircle](https://github.com/colddayer/TTcircle)</br>
 >该Repositories不定期更新
