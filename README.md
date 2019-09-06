@@ -69,4 +69,8 @@
 
 - 运动圈 - [Motion circle](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Motion%20circle%EF%BC%88%E8%BF%90%E5%8A%A8%E5%9C%88%EF%BC%89)</br>
 链接：[https://github.com/colddayer/TTcircle](https://github.com/colddayer/TTcircle)</br>
+
+- 高考查分 - [Check points](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Check%20points%EF%BC%88%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%EF%BC%89)</br>
+链接：
+
 >该Repositories不定期更新
