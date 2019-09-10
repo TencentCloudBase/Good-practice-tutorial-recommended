@@ -73,4 +73,7 @@
 - 高考查分 - [Check points](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Check%20points%EF%BC%88%E9%AB%98%E8%80%83%E6%9F%A5%E5%88%86%EF%BC%89)</br>
 链接：[https://github.com/inspurer/GaokaoScroeQuery](https://github.com/inspurer/GaokaoScroeQuery)</br>
 
+- Excel数据保存 - [Excel data](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Excel%20data%EF%BC%88Excel%E6%95%B0%E6%8D%AE%E4%BF%9D%E5%AD%98%EF%BC%89)</br>
+链接：
+
 >该Repositories不定期更新
