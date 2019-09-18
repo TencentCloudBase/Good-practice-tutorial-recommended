@@ -42,5 +42,5 @@
 
 Issue标题格式：”直播作业-分享人-项目名称”
 
-# 源码链接
+## 课程初始源码
 [https://gitee.com/mumu-osc/scrm](https://gitee.com/mumu-osc/scrm)
