@@ -1,46 +1,36 @@
-- # 课前准备
-- ## 正文：
-     Hi，我们在这儿等你很久啦，终于等来了与你相见的机会！
-在课程开始之前，需要你做好充足的准备才能迎接课上充满惊喜的挑战，务必提前预习小程序开发、小程序云开发（预习链接见附录），对这两种文档你要有充分地了解届时才能跟上云开发公开课讲师的节奏噢！
-	同时，我们会在开课前2天通过邮件向你发送一套自测题检验预习成果，进而查漏补缺噢！
+# 项目介绍
+随着微信小程序不断发展壮大，传统的 CRM 厂商也在不断向微信上迁移，毕竟微信的背后是巨大的用户和流量，还有极其方便的移动支付渠道。用微信小程序来做CRM，和以前的做法存在一些比较明显的差异，主要包括这几个方面：
 
-- ## 准备工作：
-1. 已经申请微信小程序，获取小程序 AppID
+- 用户的使用习惯不同
 
-2. 下载好微信开发者工具，以及你习惯用的编辑器（vscode，sublime、webstorm或者其他）
+- 技术上的实现方式不同
 
-3. 创建好小程序云开发环境，用于项目的信息存储及开发云函数
+- 运营方面的做法不同
 
-4. Nodejs 环境 >=8
+所以，业内给这一类的 CRM 应用起了个新名字，叫做 Social CRM，简称 SCRM。
 
-- ## 附录：
+# 资料下载
+### 课程教材PDF下载
 
-学习小程序开发：<https://developers.weixin.qq.com/miniprogram/dev/index.html>
+[https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/社会化客户关系管理（SCRM）](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/社会化客户关系管理（SCRM）)
 
-学习小程序·云开发：<https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html>
+![](https://puui.qpic.cn/vupload/0/1568791595153_bu0gmgs3i6j.png/0)
+![](https://puui.qpic.cn/vupload/0/1568791713978_whdrosnp3k.png/0)
+![](https://puui.qpic.cn/vupload/0/1568791792831_kjr0hwc0qm.png/0)
+![](https://puui.qpic.cn/vupload/0/1568791911632_w2j7aexxaw.png/0)
+![](https://puui.qpic.cn/vupload/0/1568791989057_ak263n4692a.png/0)
+![](https://puui.qpic.cn/vupload/0/1568792055884_giatsmyn9id.png/0)
+![](https://puui.qpic.cn/vupload/0/1568792124716_t75snvf2t3.png/0)
+![](https://puui.qpic.cn/vupload/0/1568792251313_emjbxwikfvg.png/0)
+![](https://puui.qpic.cn/vupload/0/1568792318013_2p6xeoua37i.png/0)
+![](https://puui.qpic.cn/vupload/0/1568792380142_yms0j892dqc.png/0)
 
+### 课程初始源码
 
-- # 课后作业
-- ## 作业实现内容：
-1.	完善项目内容，完成所有核心功能。
+https://gitee.com/mumu-osc/scrm
 
-2.	细化项目，如【我的】功能中的各个静态界面编写。
-
-3.	将数据与视图分离，使用状态管理相关的库或者框架，解耦视图层和数据层。
-
-- ## 作业提交规范：
-1.	项目的Github地址
-
-2.	参与队员名字与github
-
-3.	100字以内的介绍
-
-4.	大致实现思路 && 架构图 && 流程图
-
-- ## 作业提交地址：
-通过官方博客的Issue提交：<https://github.com/TencentCloudBase/blog/issues>
-
-Issue标题格式：”直播作业-分享人-项目名称”
-
-# 源码链接
-[https://gitee.com/mumu-osc/scrm](https://gitee.com/mumu-osc/scrm)
+# 联系我们
+更多云开发使用技巧及Serverless行业动态，扫码关注我们~
+<p align="center">
+    <img src="https://puui.qpic.cn/vupload/0/20190603_1559545575934_lettsbvkvdn.jpeg/0" width="200px">
+</p>
