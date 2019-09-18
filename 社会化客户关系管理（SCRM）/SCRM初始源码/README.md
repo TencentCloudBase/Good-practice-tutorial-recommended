@@ -25,6 +25,10 @@
 ![](https://puui.qpic.cn/vupload/0/1568792318013_2p6xeoua37i.png/0)
 ![](https://puui.qpic.cn/vupload/0/1568792380142_yms0j892dqc.png/0)
 
+### 课程教材
+
+https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/社会化客户关系管理（SCRM）
+
 ### 课程初始源码
 
 https://gitee.com/mumu-osc/scrm
