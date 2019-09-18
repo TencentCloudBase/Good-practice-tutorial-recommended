@@ -77,6 +77,6 @@
 链接：</br>
 
 - 社会化客户关系管理 - [SCRM](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/%E7%A4%BE%E4%BC%9A%E5%8C%96%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E7%AE%A1%E7%90%86%EF%BC%88SCRM%EF%BC%89)</br>
-链接：</br>
+链接：[https://gitee.com/mumu-osc/scrm](https://gitee.com/mumu-osc/scrm)</br>
 
 >该Repositories不定期更新
