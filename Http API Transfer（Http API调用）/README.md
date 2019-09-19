@@ -285,40 +285,43 @@ module.exports = app;
 ---
 
 至此，小程序云开发----httpApi调用已完成。  
+
 简单的利用**vue+elementui做个云开发小程序后台管理页面调用下上面的接口**。  
+
 我们看下效果如下：
 
 
-- 云开发小程序后台管理环境调整：
+## 云开发小程序后台管理环境调整：
 
    ![后台管理环境调整](http://m.qpic.cn/psb?/V12a5mB10IdFhp/yBfumzffZjvYU6cwtEzBSXMqaNM4aX07dzAmP6bpqmo!/b/dLgAAAAAAAAA&bo=6AFoAQAAAAADF7I!&rf=viewer_4&t=5)
 
-- 本地启动上面的接口服务及调用结果：
+## 本地启动上面的接口服务及调用结果：
     
-   - **本地启动接口服务**
+   ### 本地启动接口服务
    
    ![本地启动接口服务](http://m.qpic.cn/psb?/V12a5mB10IdFhp/LOqYwnfdrtthoj6QpK0*GT5dlcCBmR2mOSfB5Q0HzLs!/b/dDYBAAAAAAAA&bo=pwK3AwAAAAADFyM!&rf=viewer_4&t=5)
-   - **本地接口调用结果**
+   
+   ### 本地接口调用结果
    
    ![本地接口调用结果](http://m.qpic.cn/psb?/V12a5mB10IdFhp/OEOh8aWJ1.sR55vln74d4WVK*sxIMYBbAETQeu2yOeA!/b/dFMBAAAAAAAA&bo=NQfxAwAAAAADF*I!&rf=viewer_4&t=5)
-   
-  
 
-- 接口上传至服务器调用结果：
+## 接口上传至服务器调用结果：
 
    ![接口上传至服务器调用结果](http://m.qpic.cn/psb?/V12a5mB10IdFhp/1E5iYVdHdytfBHRrFMBGhzADB21WpXOallIXg89bc64!/b/dFMBAAAAAAAA&bo=NQfxAwAAAAADF*I!&rf=viewer_4&t=5)
    
    
    ---
-   ok,至此小程序云开发----httpApi调用完工。
+   
+   至此小程序云开发----httpApi调用完工。
    
    #### 过程中遇到的问题
    
    - 在post获取数据库集合信息时，**第三方返回错误码“47001”**  
    在网上查了下，有很多遇到这个问题的。但如何解决说的大都不明不白，或者未解决，或者解决了帖子未更新。   
    
-   1. 本人遇到该问题时，先是在官方社区搜索了相关提问，发现官方回复，在postman上尝试调用如果无恙请检查自身代码。
-   2. ok,依言自行在postMan上自行查验一波，发现我不论如何变更入参格式依然是“47001”的报错。此时我的入参如下：
+   - 本人遇到该问题时，先是在官方社区搜索了相关提问，发现官方回复，在postman上尝试调用如果无恙请检查自身代码。
+   
+   - 依言自行在postMan上自行查验一波，发现我不论如何变更入参格式依然是“47001”的报错。此时我的入参如下：
    ```js
    
         {
@@ -329,10 +332,17 @@ module.exports = app;
         }
    
    ```
-   3. 多次查看对应httpApi文档，不断思索问题出在哪里。自身代码也没啥毛病啊，这是为啥呢？会不会是入参的问题呢？access_token已经在请求url上拼过一次是不是入参的时候就不需要了呢？入参的格式是什么呢？post默认的“application/x-www-form-urlencoded”,还是“application/json;”然后再一篇博客中看到，微信提供的接口入参格式为“application/json”。
-   4. 锁定了入参格式，但是再postMan上我是把所有的入参格式试了一遍的呀，那再试试入参里面去掉access_token呢？
-   5. ok,大功告成。终于见到了正常的返回数据。
-   6. 总结两点：**1，入参格式采用“application/json; charset=utf-8”；2，需要拼接access_token的接口入参请干掉access_token如上文中的代码**
+   - 多次查看对应httpApi文档，不断思索问题出在哪里。自身代码也没啥毛病啊，这是为啥呢？会不会是入参的问题呢？access_token已经在请求url上拼过一次是不是入参的时候就不需要了呢？入参的格式是什么呢？post默认的“application/x-www-form-urlencoded”,还是“application/json;”然后再一篇博客中看到，微信提供的接口入参格式为“application/json”。
+   
+   - 锁定了入参格式，但是再postMan上我是把所有的入参格式试了一遍的呀，那再试试入参里面去掉access_token呢？
+   
+   - ok,大功告成。终于见到了正常的返回数据。
+   
+   - 总结两点：
+   
+   **1，入参格式采用“application/json; charset=utf-8”；**
+   
+   **2，需要拼接access_token的接口入参请干掉access_token如上文中的代码**
    
    ## 源码链接
    [https://gitee.com/jioawoxiaoqi/vitaeServer/blob/master/routes/base.js](https://gitee.com/jioawoxiaoqi/vitaeServer/blob/master/routes/base.js)
