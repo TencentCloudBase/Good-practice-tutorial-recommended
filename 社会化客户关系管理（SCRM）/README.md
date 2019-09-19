@@ -43,4 +43,7 @@
 Issue标题格式：”直播作业-分享人-项目名称”
 
 ## 课程初始源码
-[https://gitee.com/mumu-osc/scrm](https://gitee.com/mumu-osc/scrm)
+[https://gitee.com/mumu-osc/scrm/tree/for-921-workshop](https://gitee.com/mumu-osc/scrm/tree/for-921-workshop)
+
+## 课程完整源码
+[https://gitee.com/mumu-osc/scrm/tree/master](https://gitee.com/mumu-osc/scrm/tree/master)
