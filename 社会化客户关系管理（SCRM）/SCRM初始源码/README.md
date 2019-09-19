@@ -31,7 +31,7 @@ https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/mast
 
 ### 课程初始源码
 
-https://gitee.com/mumu-osc/scrm
+https://gitee.com/mumu-osc/scrm/tree/for-921-workshop
 
 # 联系我们
 更多云开发使用技巧及Serverless行业动态，扫码关注我们~
