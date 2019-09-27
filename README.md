@@ -82,4 +82,7 @@
 - Http API调用 - [Http API Transfer](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Http%20API%20Transfer%EF%BC%88Http%20API%E8%B0%83%E7%94%A8%EF%BC%89)</br>
 链接：[https://gitee.com/jioawoxiaoqi/vitaeServer/blob/master/routes/base.js](https://gitee.com/jioawoxiaoqi/vitaeServer/blob/master/routes/base.js)</br>
 
+- 二手书商城 - [secondhand book mall](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/secondhand%20book%20mall%EF%BC%88%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%95%86%E5%9F%8E%EF%BC%89)</br>
+链接：[https://github.com/xuhuai66/used-book-pro](https://github.com/xuhuai66/used-book-pro)</br>
+
 >该Repositories不定期更新
