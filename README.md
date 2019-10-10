@@ -85,4 +85,7 @@
 - 二手书商城 - [secondhand book mall](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/secondhand%20book%20mall%EF%BC%88%E4%BA%8C%E6%89%8B%E4%B9%A6%E5%95%86%E5%9F%8E%EF%BC%89)</br>
 链接：[https://github.com/xuhuai66/used-book-pro](https://github.com/xuhuai66/used-book-pro)</br>
 
+- 南苑导览 - [Nanyuan Guide](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Nanyuan%20Guide%EF%BC%88%E5%8D%97%E8%8B%91%E5%AF%BC%E8%A7%88%EF%BC%89)</br>
+链接：[https://github.com/Observer-L/NFU-Guide-Map](https://github.com/Observer-L/NFU-Guide-Map)</br>
+
 >该Repositories不定期更新
