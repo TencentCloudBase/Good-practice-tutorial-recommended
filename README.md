@@ -88,4 +88,7 @@
 - 南苑导览 - [Nanyuan Guide](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Nanyuan%20Guide%EF%BC%88%E5%8D%97%E8%8B%91%E5%AF%BC%E8%A7%88%EF%BC%89)</br>
 链接：[https://github.com/Observer-L/NFU-Guide-Map](https://github.com/Observer-L/NFU-Guide-Map)</br>
 
+- 最美恋爱 - [Best love](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Best%20love%EF%BC%88%E6%9C%80%E7%BE%8E%E6%81%8B%E7%88%B1%EF%BC%89)</br>
+链接：[https://github.com/uloveits/loveing](https://github.com/uloveits/loveing)</br>
+
 >该Repositories不定期更新
