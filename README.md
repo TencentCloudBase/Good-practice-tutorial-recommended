@@ -94,4 +94,7 @@
 - 双人打卡 - [Double Punch](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Double%20Punch%EF%BC%88%E5%8F%8C%E4%BA%BA%E6%89%93%E5%8D%A1%EF%BC%89)</br>
 链接：
 
+- 朋友圈 - [Circle of friends](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Circle%20of%20friends%EF%BC%88%E6%9C%8B%E5%8F%8B%E5%9C%88%EF%BC%89)</br>
+链接：[https://github.com/qiushi123/timeline](https://github.com/qiushi123/timeline)</br>
+
 >该Repositories不定期更新
