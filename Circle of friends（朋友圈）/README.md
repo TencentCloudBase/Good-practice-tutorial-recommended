@@ -403,7 +403,7 @@ previewImg: function(e) {
 朋友圈展示的比较简陋，后期再抽时间做美化吧。
 
 ## 源码链接
-[https://github.com/qiushi123/timeline]<https://github.com/qiushi123/timeline>
+[https://github.com/qiushi123/timeline](https://github.com/qiushi123/timeline)
 
 
 
