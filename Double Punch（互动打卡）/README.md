@@ -189,3 +189,5 @@ uploadFormID: function() {
 
 另外，Mango Daily中的随笔功能属于用户自行生成内容功能，所以在上架的时候，个人开发者账号是不被允许的，所以在考虑上架产品的时候，请按照实际情况酌情考虑选择账号主体类型。
 
+## 源码地址
+[https://github.com/ixzk/WeDaily-Weapp](https://github.com/ixzk/WeDaily-Weapp)
