@@ -97,7 +97,7 @@
 - 朋友圈 - [Circle of friends](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Circle%20of%20friends%EF%BC%88%E6%9C%8B%E5%8F%8B%E5%9C%88%EF%BC%89)</br>
 链接：[https://github.com/qiushi123/timeline](https://github.com/qiushi123/timeline)</br>
 
-- 客户需求收集 - [Customer demand collection]()</br>
+- 客户需求收集 - [Customer demand collection](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Customer%20demand%20collection%EF%BC%88%E5%AE%A2%E6%88%B7%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86%EF%BC%89)</br>
 链接：[https://github.com/fengwolf3/GroupData](https://github.com/fengwolf3/GroupData)</br>
 
 >该Repositories不定期更新
