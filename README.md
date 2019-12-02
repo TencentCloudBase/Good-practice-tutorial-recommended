@@ -100,4 +100,4 @@
 - 客户需求收集 - [Customer demand collection](https://github.com/TencentCloudBase/Good-practice-tutorial-recommended/tree/master/Customer%20demand%20collection%EF%BC%88%E5%AE%A2%E6%88%B7%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86%EF%BC%89)</br>
 链接：[https://github.com/fengwolf3/GroupData](https://github.com/fengwolf3/GroupData)</br>
 
->该Repositories不定期更新
+>该Repositories不定期更新。
